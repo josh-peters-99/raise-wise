@@ -9,9 +9,11 @@ FEDERAL_TAX_BRACKETS = [
     {'min': 609351, 'max': float('inf'), 'rate': 0.37}
 ]
 
+ABR_STATES = ['az', 'nv', 'ut']
+
 #State Income Taxes
-STATE_TAXES = [
-    {'UT': 0.0455},
-    {'AZ': 0.025},
-    {'NV': 0.0}
-]
+STATE_TAXES = {
+    'ut': 0.0455,
+    'az': 0.025,
+    'nv': 0.0
+}
